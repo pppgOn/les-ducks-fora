@@ -1,0 +1,108 @@
+{
+	"questions": [
+		{
+			"question": "Comment choisis-tu les produits que tu consommes ?",
+			"positionX": 2000,
+			"answers": [
+				{
+					"answer": "Je ne fais pas vraiment attention, j'achète ce qui me plaît en suivant mon instinct.",
+					"explanation": "L'absence de considération pour l'origine et la durabilité des produits peut contribuer à des choix moins respectueux de l'environnement et ta santé.",
+					"points": -10
+				},
+				{
+					"answer": "Je fais attention à acheter des produits locaux et de saison autant que possible.",
+					"explanation": "Privilégier les produits locaux et de saison peut réduire l'empreinte carbone associée aux transports, favoriser l'économie locale, et améliore ton alimentation. L'impact ne peut être que positif !",
+					"points": 10
+				},
+				{
+					"answer": "Je choisis principalement des produits bio, même s'ils ne sont pas nécessairement locaux.",
+					"explanation": "Le choix de produits biologiques peut favoriser des pratiques agricoles plus durables, bien que leur origine puisse parfois impliquer des transports plus longs, donc l'impact climatique peut être inchangé.",
+					"points": 2
+				},
+				{
+					"answer": "Je privilégie les produits avec des labels écologiques et équitables, même si cela signifie dépenser un peu plus.",
+					"explanation": "Le choix de produits avec des labels écologiques et équitables peut encourager des pratiques de production plus responsables.",
+					"points": 7
+				}
+			]
+		},
+		{
+			"question": "Le gaspillage est important pour toi ?",
+			"positionX": 2600,
+			"answers": [
+				{
+					"answer": "Le gaspillage alimentaire ne me préoccupe pas beaucoup, je jette souvent des restes et des produits périmés.",
+					"explanation": "La négligence envers le gaspillage alimentaire peut contribuer à une utilisation inefficace des ressources alimentaires, et devenir rapidement un trou financier.",
+					"points": -8
+				},
+				{
+					"answer": "J'essaie de réduire le gaspillage autant que possible en planifiant mes repas et en recyclant les restes.",
+					"explanation": "La planification des repas et le recyclage des restes sont des stratégies efficaces pour réduire le gaspillage alimentaire, et une alimentation saine.",
+					"points": 5
+				},
+				{
+					"answer": "Je suis très conscient du gaspillage alimentaire et veille à utiliser tous les produits de manière optimale.",
+					"explanation": "La sensibilisation et la gestion attentive des produits alimentaires peuvent contribuer à une réduction significative du gaspillage. Ainsi il évite la consommation provoqué par un gaspillage, donc un besoin alimentaire à combler.",
+					"points": 8
+				},
+				{
+					"answer": "Je m'engage activement dans des initiatives de lutte contre le gaspillage alimentaire, que ce soit à la maison ou en soutenant des organisations.",
+					"explanation": "Participer activement à des initiatives de lutte contre le gaspillage alimentaire démontre un engagement fort envers la durabilité, et améliorer la portée des campagnes de sensibilisation sur le sujet.",
+					"points": 10
+				}
+			]
+		},
+		{
+			"question": "L'origine des produits t'importe ?",
+			"positionX": 3500,
+			"answers": [
+				{
+					"answer": "Je ne fais pas attention à l'origine des produits que j'achète, tant qu'ils me semblent bons.",
+					"explanation": "L'absence de considération pour l'origine des produits peut contribuer à des choix moins durables sur le plan environnemental et social.",
+					"points": -5
+				},
+				{
+					"answer": "Je privilégie les produits locaux autant que possible, mais cela ne guide pas systématiquement mes choix.",
+					"explanation": "Favoriser les produits locaux peut réduire l'empreinte carbone associée aux transports et soutenir les agriculteurs locaux.",
+					"points": 3
+				},
+				{
+					"answer": "Je fais très attention à choisir des produits locaux, de saison et issus de l'agriculture biologique.",
+					"explanation": "Le choix de produits locaux, de saison et biologiques peut contribuer à des pratiques agricoles plus durables et à une consommation responsable.",
+					"points": 10
+				},
+				{
+					"answer": "manger local, ça coûte cher.",
+					"explanation": "Manger local ne coûte pas plus cher ! La vente à la ferme est beaucoup moins chère qu'ailleurs et de bien meilleure qualité.",
+					"points": 2
+				}
+			]
+		},
+		{
+			"question": "Participes-tu à des initiatives locales, pour l'agriculture et l'alimentation durable ?",
+			"positionX": 4100,
+			"answers": [
+				{
+					"answer": "Non, je n'ai jamais pensé à m'impliquer dans des initiatives locales en lien avec l'agriculture durable ou l'alimentation responsable.",
+					"explanation": "L'absence d'implication dans des initiatives locales peut refléter un manque d'engagement envers des pratiques agricoles durables et une alimentation responsable.",
+					"points": -5
+				},
+				{
+					"answer": "J'y ai pensé, mais je n'ai pas encore trouvé le temps ou la motivation pour m'impliquer activement.",
+					"explanation": "La volonté de s'impliquer, même si elle n'a pas encore été concrétisée, indique un certain intérêt pour des actions en faveur de l'agriculture durable et de l'alimentation responsable.",
+					"points": 3
+				},
+				{
+					"answer": "Oui, j'ai déjà participé à des initiatives locales visant à promouvoir l'agriculture durable et l'alimentation responsable.",
+					"explanation": "La participation active à des initiatives locales témoigne d'un engagement concret envers l'agriculture durable et l'alimentation responsable.",
+					"points": 8
+				},
+				{
+					"answer": "Je suis activement impliqué dans plusieurs initiatives locales liées à l'agriculture durable et à l'alimentation responsable.",
+					"explanation": "Une implication continue et active dans des initiatives locales démontre un fort engagement envers des pratiques agricoles durables et une alimentation responsable.",
+					"points": 10
+				}
+			]
+		}
+	]
+}

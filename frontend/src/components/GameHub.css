@@ -1,0 +1,56 @@
+/* AboutUsPage.css */
+
+.lvl {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.lvl p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.lvl ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lvl li {
+	color: black;
+    margin-bottom: 12px;
+    text-align: center;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.lvl li:hover {
+    box-shadow: 0 8px 10px rgba(197, 197, 197, 0.2);
+}
+
+.lvl strong {
+    font-weight: bold;
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #007bff;
+    display: block; /* Ensure each name is on a new line */
+}
+
+/* Optional: Add a subtle box shadow for a modern card-like appearance */
+.lvl {
+    border-radius: 32px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .lvl {
+        padding: 10px;
+    }
+
+    .lvl strong {
+        font-size: 18px;
+    }
+}

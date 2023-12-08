@@ -1,0 +1,140 @@
+{
+	"questions": [
+		{
+			"question": "Tu envisages de construire ta nouvelle maison ?",
+			"positionX": 263,
+			"answers": [
+				{
+					"answer": "Je pense à recourir à des solutions plus durables, comme la rénovation énergétique d'une propriété existante plutôt que de construire une nouvelle maison.",
+					"explanation": "La rénovation doit être globale et amener tous les logements d’étiquette énergie DPE supérieures à C, vers des étiquettes A, B ou C.",
+					"points": 10
+				},
+				{
+					"answer": "Oui, je vais construire ma nouvelle maison de A à Z.",
+					"explanation": "La construction d'une maison neuve peut entraîner une consommation importante de ressourcesLe PTEF prévoit une réduction progressive du nombre de logements neufs construits chaque année, en cohérence avec la démographie",
+					"points": -10
+				},
+				{
+					"answer": "Non, je préfère acheter une maison existante et la rénover selon mes besoins.",
+					"explanation": "La rénovation d'une maison existante peut être plus écologique que la construction neuve, en évitant le gaspillage de matériaux. ",
+					"points": 0
+				}
+			]
+		},
+		{
+			"question": "C'est un pavillon que tu as choisi n'est-ce pas ?",
+			"positionX": 963,
+			"answers": [
+				{
+					"answer": "Oui, j'ai opté pour un pavillon neuf.",
+					"explanation": "La construction d'un pavillon neuf peut impliquer l'utilisation de matériaux neufs, mais offre également des possibilités d'efficacité énergétique mais ne permet pas une réduction rapide et marquée de la proportion de maisons individuelles",
+					"points": -10
+				},
+				{
+					"answer": "Non, j'ai plutôt choisi de rénover un pavillon existant.",
+					"explanation": "La rénovation d'un pavillon existant peut être plus écologique, que sa construction, en évitant la conception complète d'une nouvelle structure.",
+					"points": 5
+				},
+				{
+					"answer": "En réalité, j'ai opté pour une autre option que le pavillon, j'ai choisi une construction plus écologique et durable.",
+					"explanation": "Le logement en 2050 ressemble beaucoup au logement actuel soulagé de nombreux problèmes de précarité énergétique: pathologies du bâtiment, qualité de l’air, confort d’été. Il ne nécessite pas de transformation d’usages majeure.",
+					"points": 10
+				}
+			]
+		},
+		{
+			"question": "Envisages-tu sérieusement d'entreprendre une rénovation énergétique globale de ton logement ?",
+			"positionX": 1620,
+			"answers": [
+				{
+					"answer": "Non, je pense que des améliorations partielles suffiront pour le moment.",
+					"explanation": "Des améliorations partielles peuvent contribuer à l'efficacité énergétique, mais la rénovation globale offre des avantages plus importants.",
+					"points": -2
+				},
+				{
+					"answer": "Je examine d'autres options, comme changer ma source de chauffage, avant de décider de la rénovation énergétique globale.",
+					"explanation": "Explorer différentes options est un bon moyen de prendre des décisions éclairées en matière d'efficacité énergétique.",
+					"points": 2
+				},
+				{
+					"answer": "Oui, je suis prête à investir dans une rénovation énergétique complète pour rendre mon logement plus efficace sur le plan énergétique.",
+					"explanation": "Investir dans une rénovation énergétique complète peut considérablement réduire la consommation d'énergie à long terme. Et c'est un excellent investissement à moyen et long terme.",
+					"points": 10
+				},
+				{
+					"answer": "La rénovation énergétique, n'est pas efficace.",
+					"explanation": "La rénovation thermique apporte de nombreux avantages incontestables : confort thermique, qualité d'air intérieur, température équilibré, économies...",
+					"points": -10
+				},
+				{
+					"answer": "La rénovation concerne les propriétaires.",
+					"explanation": "Les locataires, les bailleurs et les copropriétaires sont en droit d’entreprendre des projets liés à la rénovation énergétique. La plupart du temps ils ne savent pas.",
+					"points": 0
+				}
+			]
+		},
+		{
+			"question": "As-tu déjà pensé à l'idée de mettre une pompe à chaleur pour chauffer ton logement ?",
+			"positionX": 5136,
+			"answers": [
+				{
+					"answer": "Oui, c'est dans mes réflexions. On m'a dit que les pompes à chaleur étaient plus écologiques.",
+					"explanation": "Les pompes à chaleur sont souvent considérées comme des alternatives plus respectueuses de l'environnement pour le chauffage domestique. Le chauffage des surfaces de logement fait d'ailleurs partie des plus grosses problèmatique climatique du secteur.",
+					"points": 10
+				},
+				{
+					"answer": "Pas vraiment, mais je suis ouverte aux idées.",
+					"explanation": "Être ouvert aux nouvelles technologies peut conduire à des choix plus durables en matière de chauffage.",
+					"points": 0
+				},
+				{
+					"answer": "Non, pas du tout. Je ne sais même pas comment ça fonctionne. Et ça ne changera pas.",
+					"explanation": "Une meilleure compréhension des technologies de chauffage peut influencer les choix vers des options plus respectueuses de l'environnement. Sur de nombreux points les moyens de chauffages ont un impact majeur.",
+					"points": -10
+				}
+			]
+		},
+		{
+			"question": "Comment ajustes-tu la température de ton logement ?",
+			"positionX": 2920,
+			"answers": [
+				{
+					"answer": "Je suis plutôt du genre à utiliser un thermostat programmable pour réguler la température. C'est pratique et économe en énergie.",
+					"explanation": "L'utilisation d'un thermostat programmable peut contribuer à une gestion plus efficace de la température et à des économies d'énergie.",
+					"points": 5
+				},
+				{
+                    "answer": "J'ajuste la température en fonction des saisons et je porte des vêtements appropriés pour rester confortable sans trop dépendre du chauffage ou de la climatisation.",
+                    "explanation": "Ajuster la température en fonction des saisons et porter des vêtements adaptés peut contribuer à une utilisation plus responsable de l'énergie.",
+                    "points": 5
+                },
+				{
+					"answer": "Je préfère ouvrir les fenêtres pour ventiler plutôt que d'utiliser la climatisation. Pour le chauffage, j'essaie de ne pas trop le pousser, question d'économie d'énergie.",
+					"explanation": "La ventilation naturelle et la modération dans l'utilisation du chauffage sont des choix éco-responsables pour la gestion de la température. Mais attention à ne pas chauffer les oiseaux !",
+					"points": 5
+				}
+			]
+		},
+		{
+			"question": "Quels types de matériaux as-tu privilégiés lors de la construction de ton logement ?",
+			"positionX": 3927,
+			"answers": [
+				{
+					"answer": "Je n'avais pas vraiment pensé à ça, j'ai utilisé les matériaux standards recommandés par les constructeurs.",
+					"explanation": "L'utilisation de matériaux standards peut ne pas nécessairement contribuer à la durabilité de la construction, ni à la réduction du coût des travaux.",
+					"points": -10
+				},
+				{
+					"answer": "J'ai opté pour des matériaux écologiques certifiés, visant à réduire l'empreinte carbone de la construction.",
+					"explanation": "Le choix de matériaux écologiques certifiés peut contribuer à la réduction de l'impact environnemental global de la construction, ainsi qu'à l'obtention d'aides de l'Etat pour diminuer le coût des travaux.",
+					"points": 2
+				},
+				{
+					"answer": "J'ai essayé de choisir des matériaux recyclés autant que possible pour rendre ma maison plus respectueuse de l'environnement.",
+					"explanation": "L'utilisation de matériaux recyclés peut être une stratégie efficace pour réduire la consommation de ressources naturelles. Les logements en sont donc plus confortables, plus ergonomique et plus sains. ",
+					"points": 10
+				}
+			]
+		}
+	]
+}

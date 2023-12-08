@@ -1,0 +1,77 @@
+{
+	"questions": [
+		{
+			"question": "Quel est votre point de vue sur l'impact environnemental de l'industrie ?",
+			"positionX": 1700,
+			"answers": [
+				{
+					"answer": "Je pense que l'industrie doit prioriser la croissance économique même si cela implique un impact environnemental élevé.",
+					"explanation": "Prioriser la croissance économique sans considération pour l'impact environnemental peut lui causer du tort.",
+					"points": -5
+				},
+				{
+					"answer": "L'industrie doit équilibrer croissance économique et responsabilité environnementale en adoptant des pratiques plus durables.",
+					"explanation": "Trouver un équilibre entre croissance économique et responsabilité environnementale est crucial pour atténuer les émissions de gaz à effet de serre.",
+					"points": 10
+				},
+				{
+					"answer": "Je pense que l'industrie doit mettre l'accent sur la durabilité environnementale même si cela signifie sacrifier la croissance économique.",
+					"explanation": "Mettre l'accent sur la durabilité environnementale peut contribuer positivement à la réduction des émissions de gaz à effet de serre.",
+					"points": 10
+				},
+				{
+					"answer": "Je ne me suis jamais vraiment posée de questions sur l'impact environnemental de l'industrie.",
+					"explanation": "Prendre conscience de l'impact environnemental de l'industrie peut conduire à des choix plus responsables. Passer par l'éducation et la documentation, pas seulement pour l'environnement, et une chose à réaliser !",
+					"points": 0
+				}
+			]
+		},
+		{
+			"question": "En tant que consommateur, comment envisages-tu ton rôle dans la réduction de l'impact environnemental de l'industrie ?",
+			"positionX": 2360,
+			"answers": [
+				{
+					"answer": "Je ne pense pas que mes choix de consommation aient un impact significatif sur l'industrie.",
+					"explanation": "Les choix de consommation peuvent influencer les pratiques de l'industrie en faveur de la durabilité environnementale. En effet, les insdustries regardent la demande pour produire en s'adaptant au client.",
+					"points": -5
+				},
+				{
+					"answer": "Je choisis consciemment des produits issus d'industries engagées dans des pratiques durables.",
+					"explanation": "Soutenir des industries engagées dans des pratiques durables peut contribuer positivement à la réduction des émissions de gaz à effet de serre.",
+					"points": 10
+				},
+				{
+					"answer": "Je ne fais pas spécifiquement attention aux pratiques environnementales des industries lors de mes choix de consommation.",
+					"explanation": "Prendre en compte les pratiques environnementales peut orienter les choix de consommation vers des options plus durables.",
+					"points": 0
+				}
+			]
+		},
+		{
+			"question": "Que penses-tu des efforts actuels de l'industrie pour réduire son impact environnemental ?",
+			"positionX": 3300,
+			"answers": [
+				{
+					"answer": "Je ne suis pas au courant des initiatives de l'industrie pour réduire son impact environnemental.",
+					"explanation": "Être informé des initiatives de l'industrie peut influencer la perception et les attentes en matière de durabilité. Un changement de communication, et une meilleure transparence de la part des entreprises, sont des facteurs essentiels, sans lequels les consommateurs n'ont pas toutes les ressourses possibles pour prendre des décisions.",
+					"points": -5
+				},
+				{
+					"answer": "Je pense que l'industrie pourrait faire beaucoup plus pour réduire son impact environnemental.",
+					"explanation": "Reconnaître la nécessité d'efforts plus importants peut encourager une pression positive en faveur de la durabilité. L'effot doit être collectif.",
+					"points": 10
+				},
+				{
+					"answer": "Je suis satisfaite des initiatives actuelles de l'industrie pour minimiser son impact environnemental.",
+					"explanation": "Reconnaître les efforts existants peut encourager la continuité et l'amélioration des pratiques durables à toute échelle. L'écologie doit s'inscrire dans un contexte de reconnaissance et de mémoire, si elle veut s'inscrire dans les esprits.",
+					"points": 5
+				},
+				{
+					"answer": "Je ne pense pas que l'industrie puisse réellement réduire son impact environnemental de manière significative.",
+					"explanation": "Le pessimisme quant aux possibilités de réduction peut entraver les incitations à des changements positifs.",
+					"points": -10
+				}
+			]
+		}
+	]
+}

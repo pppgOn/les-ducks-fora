@@ -1,0 +1,58 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./deploy/backend/Dockerfile
+      target: prod
+    image: nuitinfo:${NUITINFO_VERSION:-latest}
+    restart: always
+    env_file:
+    - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NUITINFO_HOST: 0.0.0.0
+      NUITINFO_DB_HOST: nuitinfo-db
+      NUITINFO_DB_PORT: 5432
+      NUITINFO_DB_USER: nuitinfo
+      NUITINFO_DB_PASS: nuitinfo
+      NUITINFO_DB_BASE: nuitinfo
+
+  db:
+    image: postgres:13.8-bullseye
+    hostname: nuitinfo-db
+    environment:
+      POSTGRES_PASSWORD: "nuitinfo"
+      POSTGRES_USER: "nuitinfo"
+      POSTGRES_DB: "nuitinfo"
+    volumes:
+    - nuitinfo-db-data:/var/lib/postgresql/data
+    restart: always
+    healthcheck:
+      test: pg_isready -U nuitinfo
+      interval: 2s
+      timeout: 3s
+      retries: 40
+
+  migrator:
+    image: nuitinfo:${NUITINFO_VERSION:-latest}
+    restart: "no"
+    command: alembic upgrade head
+    environment:
+      NUITINFO_DB_HOST: nuitinfo-db
+      NUITINFO_DB_PORT: 5432
+      NUITINFO_DB_USER: nuitinfo
+      NUITINFO_DB_PASS: nuitinfo
+      NUITINFO_DB_BASE: nuitinfo
+    depends_on:
+      db:
+        condition: service_healthy
+
+
+
+volumes:
+  nuitinfo-db-data:
+    name: nuitinfo-db-data

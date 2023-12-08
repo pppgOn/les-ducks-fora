@@ -1,0 +1,455 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	font-family: arial;
+}
+
+.mainPic{
+	top: 10vh;
+	width: 100vw;
+	position: fixed;
+	height:80vh;
+
+}
+
+main{
+	top:10vh;
+	width: 100vw;
+	position: fixed;
+	height:80vh;
+}
+
+.maine{
+	background: url(/src/assets/backMain.png) center/cover no-repeat;
+}
+
+.copyright{
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+
+}
+
+.copyright a{
+	text-decoration: none;
+	color: darkkhaki;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	
+}
+
+.game {
+	width: 100%;
+	height: 100%;
+	background-image: url('public/images/bricks.jpg');
+	background-repeat: repeatd;
+}
+
+canvas {
+	height: 100vh;
+	width: 100vw;
+}
+#popup-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+}
+
+#popup-content {
+	position: relative;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	display: flex;
+	max-width: 600px;
+	width: 80%;
+	flex-direction: row;
+}
+
+#popup-image {
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: auto;
+    max-width: 100%;
+}
+
+#popup-question {
+	font-size: 24px;
+    font-weight: bold;
+    color: #333;
+	margin-bottom: 20px;
+}
+
+#popup-answers {
+	display: flex;
+	flex-direction: column; /* Change to column layout for answers */
+}
+
+.popup-answer {
+	margin: 5px;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: 2px solid #3498db;
+	color: #3498db;
+	background-color: #fff;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.popup-answer:hover {
+	background-color: #3498db;
+	color: #fff;
+}
+
+#close-button {
+	position: relative;
+	cursor: pointer;
+	background: #007BFF;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+}
+
+button#close-button:disabled,
+button#close-button[disabled]{
+	margin-top: 10px; /* Added margin for the close button */
+    background-color: #ccc; /* Set a background color for disabled state */
+    color: #666; /* Set a text color for disabled state */
+    cursor: not-allowed; /* Set the cursor to not-allowed for disabled state */
+    border: 2px solid #999; /* Set a border for disabled state */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 10px 15px; /* Adjust padding for better appearance */
+    font-size: 16px; /* Set font size */
+    opacity: 0.6; /* Adjust opacity for a faded look */
+}
+
+.popup-right-question, .popup-left-image {
+    /* Ajoutez des styles personnalisés pour chaque div si nécessaire */
+    padding: 10px;
+    margin: 5px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#popup-end-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #popup-end-content {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+  }
+
+  #popup-end-content div {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+  }
+  
+  #redirect-end-button {
+	padding: 10px 20px;
+	background: #4caf50;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s; /* Smooth transition effect */
+  }
+  
+  #redirect-end-button:hover {
+	background: #45a049; /* Change the background color on hover */
+  }
+
+.boutonMain{
+	padding: 2vh 10vw;
+	font-size: 30px;
+	border: none;
+	border-radius: 50px;
+	background-color: #3498db;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	transform: translate(40vw,40vh);
+	z-index: 2;
+	position: absolute;
+}
+
+
+.boutonMain.shifted {
+	transform: translate(45vw,30vh);
+	transition: transform 0.3s ease;
+}
+
+
+
+.duck {
+	position: absolute;
+	
+	z-index: 1;
+	height: 6vh;
+}
+.duck:hover{
+    cursor: pointer;
+}
+
+.dark{
+	transform: translate(50vw,40vh);
+}
+
+.noel{
+	transform: translate(47vw,4vh);
+	z-index: -1;
+}
+
+
+
+
+
+
+
+/*LOOOOOOOOOOOOOOOOG PAGE*/
+
+.logContainer {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  }
+
+.logPage {
+	margin: auto;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	font-family: 'Arial', sans-serif;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logPage button {
+	margin: 15px 15px 0;
+	padding: 12px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 30px;
+	background-color: #3498db;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.logPage button:hover {
+	background-color: #2980b9;
+}
+
+
+
+.treeContainer{
+	text-align: center;
+	height: 100%;
+}
+
+#tree{
+	height: 70vh;
+	position: absolute;
+	transform: translate(-26vh,0vw);
+}
+
+.inventoryContainer{
+	background: url(/src/assets/tree.png)center/cover;
+	min-height: 530px;
+	max-width: 437px;
+	max-height: 530px;
+	max-width: 437px;
+	margin: 50px auto auto auto;
+}
+
+
+#profile{
+	text-align: center;
+	font-family: arial;
+	color:white;
+}
+
+#profile h2{
+	margin-top:20px ;
+	font-size: 30px;
+}
+
+
+.profileBuble{
+	position: absolute;
+	display: block;
+	right: 3vh;
+	height: 100%;
+	top: 0vw;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	gap: 40px;
+	font-size: 25px;
+}
+
+
+#deco{
+	transform: rotate(180deg);
+}
+
+.duckTree{
+	position: absolute;
+	height: 60px;
+}
+
+#duck0{
+	transform: translate(-177px,463px);
+}
+
+#duck1{
+	transform: translate(-30px,444px);
+}
+
+#duck2{
+	transform: translate(95px,390px);
+}
+#duck3{
+	transform: translate(-15px,322px);
+}
+#duck4{
+	transform: translate(-109px,244px);
+}
+#duck5{
+	transform: translate(-18px,138px);
+}
+
+
+.rotating-star{
+	width: 100px;
+	height: 100px;
+	transform: translate(0px,-39px);
+}
+.rotating-star:hover{
+	animation : rotation 3s infinite ease-in-out;
+	transform-origin: center; /* Set the rotation origin to the center */
+}
+
+@keyframes rotation {
+    50% {
+        transform:translate(0px,-39px)  rotateY(359deg) translateY(-20px);
+    }
+}
+
+.sponsors-container{
+	color: white;
+font-family: arial;
+font-size: 32px;
+text-align: center;
+margin: 20px;
+}
+
+.sponsors-container ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px; /* Réduisez l'espace entre les éléments */
+}
+
+.sponsors-container li {
+	flex: 1 0 calc(50% - 15px); /* Utilise 50% de l'espace, moins l'espace entre les éléments */
+	max-width: calc(50% - 15px); /* Évite de dépasser la largeur spécifiée */
+}
+
+.sponsors-container img {
+	width: 20%;
+	height: auto;
+	max-height: 60%;
+}
+
+.ndiLogo{
+	display: flex;
+	justify-content: center;
+}
+
+
+.supermain{
+	top: 0vw;
+	height: 100vw;
+}

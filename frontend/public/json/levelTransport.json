@@ -1,0 +1,87 @@
+{
+	"questions": [
+		{
+			"question": "Comment tu te déplaces au quotidient ?",
+			"positionX": 650,
+			"answers": [
+				{
+					"answer": "Je privilégie généralement ma voiture personnelle pour me déplacer.",
+					"explanation": "L'utilisation fréquente de la voiture personnelle contribue aux émissions de gaz à effet de serre. Plus de 73% des français pratiquent l'autosolisme, ainsi la polution dans la majorité des villes moyennes de France pourrait diminuer en même temps que cette pratique.",
+					"points": -10
+				},
+				{
+					"answer": "J'opte souvent pour des modes de déplacement alternatifs comme la marche, le vélo, les transports en commun ou le covoiturage.",
+					"explanation": "Le choix de modes de déplacement alternatifs contribue à réduire les émissions de gaz à effet de serre, et les modes de transports actifs nous forcent à avoir une activité physique, notre santé est donc également améliorée !",
+					"points": 10
+				},
+				{
+					"answer": "Je ne me pose pas vraiment de questions, je prends ce qui est le plus pratique à chaque instant.",
+					"explanation": "Considérer les alternatives aux modes de déplacement habituels peut avoir un impact positif sur l'environnement. Mais le plus pratique peut être un bon choix du moment que la distance et réduite, et que le mode choisi n'est pas dans une optique individualiste.",
+					"points": 5
+				},
+				{
+					"answer": "Je n'ai pas le choix, ma situation professionnelle ou géographique me contraint à utiliser ma voiture personnelle.",
+					"explanation": "Certaines situations contraignent l'utilisation de la voiture personnelle, mais des alternatives peuvent parfois être envisagées, en campagne le covoiturage est tout à fait possible.",
+					"points": -5
+				}
+			]
+		},
+		{
+			"question": "Quelle distance parcours-tu chaque jour ?",
+			"positionX": 1550,
+			"answers": [
+				{
+					"answer": "Je parcours de courtes distances, généralement moins de 5 kilomètres par jour.",
+					"explanation": "Réduire les distances de déplacement contribue à la diminution des émissions de gaz à effet de serre. 5 km peuvent facilement être parcourus à vélo, à fond la forme !",
+					"points": 10
+				},
+				{
+					"answer": "Mes déplacements couvrent des distances moyennes, entre 5 et 15 kilomètres par jour.",
+					"explanation": "Les distances moyennes peuvent encore être optimisées pour réduire l'empreinte carbone des déplacements. Un changement de l'espace urbain permettrai de réduire condidérablement les distances, et certaines inégalités sociales.",
+					"points": 5
+				},
+				{
+					"answer": "Je parcours de longues distances, dépassant généralement 15 kilomètres par jour.",
+					"explanation": "Les longues distances de déplacement peuvent contribuer significativement aux émissions de gaz à effet de serre. Privilégiez un maximum les transports en commun, comme le covoiturage.",
+					"points": -10
+				},
+				{
+					"answer": "Je ne saurais pas précisément dire, cela dépend des jours et des circonstances.",
+					"explanation": "Une meilleure connaissance de la distance parcourue peut aider à prendre des décisions plus conscientes sur les modes de déplacement. Une fois les choses posées, nous sommes souvent surpris de la réalité.",
+					"points": 0
+				}
+			]
+		},
+		{
+			"question": "Comment penses-tu changer tes déplacements ?",
+			"positionX": 3300,
+			"answers": [
+				{
+					"answer": "Je prévois de continuer à utiliser principalement ma voiture personnelle.",
+					"explanation": "Maintenir l'utilisation exclusive de la voiture personnelle est un des plus grand facteur d'émission de GES. 73% des français pratiquent l'autosolisme.",
+					"points": -10
+				},
+				{
+					"answer": "Je souhaite passer à des modes de déplacement plus durables tels que la marche, le vélo, les transports en commun ou le covoiturage.",
+					"explanation": "Le passage à des modes de déplacement plus durables peut contribuer positivement à la réduction des émissions de gaz à effet de serre. A notre humble échelle, les meilleures options à considérer, dans la mesure du réalisable, sont les solutions actives et collectives.",
+					"points": 10
+				},
+				{
+					"answer": "Je ne suis pas certaine de ce que je vais faire à l'avenir en matière de déplacements.",
+					"explanation": "Réfléchir à de possibles changements dans les modes de déplacement peut ouvrir la voie à des choix plus écologiques, et sur le plan financier également.",
+					"points": 0
+				},
+				{
+					"answer": "Je n'ai pas l'intention de changer mes habitudes de déplacement dans un avenir proche.",
+					"explanation": "Maintenir les habitudes actuelles peut entraver les efforts visant à réduire les émissions de gaz à effet de serre.",
+					"points": -5
+				},
+				{
+					"answer": "Se déplacer en voiture c'est un droit, une liberté.",
+					"explanation": "Oui c'est une liberté. Et la liberté s'arrête où commence celle des autres. Bruit, espace, énergie, pollution, en étant individualiste sur le choix des transports on ne nuit pas seulement à la planète, mais aussi à son prochain, et donc un peut à soi-même.",
+					"points": 2
+				}
+			]
+		}
+	]
+}

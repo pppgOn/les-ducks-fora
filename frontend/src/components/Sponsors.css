@@ -1,0 +1,48 @@
+/* AboutUsPage.css */
+
+.sponsors-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sponsors-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sponsors-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sponsors-container li {
+    margin-bottom: 12px;
+    text-align: center;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sponsors-container strong {
+    font-weight: bold;
+    font-size: 20px; /* Adjust the font size as needed */
+    display: block; /* Ensure each name is on a new line */
+}
+
+/* Optional: Add a subtle box shadow for a modern card-like appearance */
+.sponsors-container {
+    border-radius: 32px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .sponsors-container {
+        padding: 10px;
+    }
+
+    .sponsors-container strong {
+        font-size: 18px;
+    }
+}

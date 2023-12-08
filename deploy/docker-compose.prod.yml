@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./deploy/frontend/Dockerfile.react
+    image: app:alpha-prod
+    restart: unless-stopped
+    ports:
+    - "22843:80"
+  api:
+    environment:
+      ENVIRONMENT: "prod"

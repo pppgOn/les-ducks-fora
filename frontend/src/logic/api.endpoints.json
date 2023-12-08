@@ -1,0 +1,13 @@
+{
+  "url": "http://localhost:8000/api/",
+  "endpoint": {
+    "register": "auth/register",
+    "login": "auth/jwt/login",
+    "logout": "auth/jwt/logout",
+    "refresh": "sign/refresh-token",
+    "reset_password": "auth/reset-password",
+    "inventaire": "invent",
+    "add_inventaire": "invent",
+    "add_point": "points"
+  }
+}
